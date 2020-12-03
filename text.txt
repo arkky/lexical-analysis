@@ -1,0 +1,10 @@
+_A := 5;
+B := 0;
+C:=$
+if (_A and B) then
+_A := B
+else if (_A xor B) then
+B := _A
+else
+_A := _A or B;
+A_ := (T and F);
